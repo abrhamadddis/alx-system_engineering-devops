@@ -1,1 +1,0 @@
-This is shell variables folder
