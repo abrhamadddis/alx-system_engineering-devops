@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Bash script that prints "Best School" 20 times  that display diffrent thing in 4,9,17 loop
-output="Best School";
 a=1;
 while [ $a -lt 21 ];
 do
