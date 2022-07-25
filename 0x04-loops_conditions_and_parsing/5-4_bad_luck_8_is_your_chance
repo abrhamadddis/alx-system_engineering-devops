@@ -2,7 +2,7 @@
 # Bash script that prints "Best School" 10 times 
 output="Best School";
 a=0;
-while [ $a -lt 11 ];
+while [ $a -lt 10 ];
 do
     if [ "$a" -eq 3 ]; then
         echo "bad luck"
