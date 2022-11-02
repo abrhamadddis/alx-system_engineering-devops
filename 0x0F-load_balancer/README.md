@@ -1,13 +1,7 @@
-## General
-* What is the main role of a web server
-* What is a child process
- Why web servers usually have a parent process and child processes
-* What are the main HTTP requests
-# DNS
-* What DNS stands for
-* What is DNS main role
+## 0x0F. Load balancer
 
-# Requirements
+## Requirements
+
 # General
 * Allowed editors: vi, vim, emacs
 * All your files will be interpreted on Ubuntu 16.04 LTS
@@ -17,4 +11,3 @@
 * Your Bash script must pass Shellcheck (version 0.3.7) without any error
 * The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 * The second line of all your Bash scripts should be a comment explaining what is the script doing
-* You can’t use systemctl for restarting a process

@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 #a script that install nginx in remote server
-apt update
-apt install -y nginx
-echo "Holberton School" > /var/www/html/index.html
-service nginx restart
+sudo apt-get -y update
+sudo apt-get -y upgread
+sudo apt-get install -y nginx
+sudo chown -R "$USER":"$USER" /var/www/
+sudo chown -R "$USER":"$USER" /var/www/
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo ufw alllow "Nginx HTTP"
+sudo service nginx restart
